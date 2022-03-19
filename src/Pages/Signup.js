@@ -12,6 +12,7 @@ function Signup() {
      return (
           <div>
                <SignupForm title={"SignUp"} method={"post"} url={"http://localhost:8000/api/register/"} navigateTo={!value == "createuser" ? "/login" : '/admin_home'}/>
+               
           </div>
      );
 }
